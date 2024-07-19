@@ -29,9 +29,8 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
       - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.6.0
+        uses: helm/chart-releaser-action@v1.5.0
         with:
-          skip_packaging: "yes"
-          pages_branch: gh-pages
+          skip_packaging: true
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
