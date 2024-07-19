@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  xinference:
+  - apiVersion: v2
+    appVersion: 0.14.0
+    created: "2024-07-19T08:43:24.815963549Z"
+    description: Helm charts for Xinference on Kubernetes
+    digest: f2d84de615f5d6eac44b0531f6417c4254fde2e23e7517e26e79b29c48f11dea
+    name: xinference
+    type: application
+    urls:
+    - https://github.com/ChengjieLi28/my-helm-charts/releases/download/xinference-0.0.1/xinference-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-07-19T08:43:24.815977215Z"
